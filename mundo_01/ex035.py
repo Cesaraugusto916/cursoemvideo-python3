@@ -1,3 +1,10 @@
+"""
+EXERCÍCIO 035: Analisando Triângulo v1.0
+
+Desenvolva um programa que leia o comprimento de três retas
+e diga ao usuário se elas podem ou não formar um triângulo.
+"""
+
 r1 = float(input('Digite o valor de uma reta: '))
 r2 = float(input('Digite o valor de outra reta: '))
 r3 = float(input('Digite o valor da última reta: '))

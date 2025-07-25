@@ -1,0 +1,6 @@
+{
+    "diffEditor.wordWrap": "on",
+    "notebook.output.wordWrap": true,
+    "workbench.editor.wrapTabs": true,
+    "editor.wordWrap": "on"
+}

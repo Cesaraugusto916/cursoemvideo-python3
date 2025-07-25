@@ -1,3 +1,9 @@
+"""
+EXERCÍCIO 009: Tabuada
+
+Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
+"""
+
 n = int(input('Digite um número: '))
 print(f'Segue a tabuada desse número:'
       f'\n{n} x 1  = {n*1}'
