@@ -1,3 +1,9 @@
+"""
+EXERCÍCIO 045: Pedra, Papel e Tesoura
+
+Crie um programa que faça o computador jogar Jokenpô com você.
+"""
+
 import random
 import time
 x = random.randint(1, 3)
