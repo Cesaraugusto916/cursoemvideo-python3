@@ -11,7 +11,7 @@ input('Pressione Enter para iniciar a contagem regressiva...')
 
 print('Contagem regressiva iniciada!')
 
-for i in range(10, 0, -1):
+for i in range(10, -1, -1):
     print(i)
     time.sleep(1)
 
