@@ -1,14 +1,28 @@
+"""
+EXERCÍCIO 058: Jogo da Adivinhação v2.0
+
+Melhore o jogo do EXERCÍCIO 028 onde o computador vai "pensar" em um número entre 0 e 10.
+Só que agora o jogador vai tentar adivinhar até acertar, mostrando no final quantos
+palpites foram necessários para vencer.
+"""
+
 import random
 
 c = 1
-n_pc = random.randint(0,5)
-print('Olá, usuário. Eu acabei de pensar em um número de 0 a 5!')
-n_us = int(input('Qual número eu pensei?: '))
+n_pc = random.randint(0,10)
+print('Olá, usuário. Eu acabei de pensar em um número de 0 a 10!')
 
-while n_us != n_pc:
-    print('Tente novamente!')
+acertou = False
+palpites = 0
+
+while not acertou:
     n_us = int(input('Qual número eu pensei?: '))
-    c += 1
-else:
-    print(f'Parabéns! Você acertou! Eu pensei exatamente no {n_us}')
-    print(f'Você precisou de {c} tentativas!')
+    palpites += 1
+    if n_us == n_pc:
+        acertou = True
+    else:
+        if n_us > n_pc:
+            print('Menos')
+        else:
+            print('Mais')
+print(f'Você acertou com {palpites} tentativas!')
