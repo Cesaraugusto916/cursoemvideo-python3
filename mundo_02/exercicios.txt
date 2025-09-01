@@ -1,0 +1,26 @@
+ex036.py - Correto
+ex037.py - Sem enunciado
+ex038.py - Incorreto: O enunciado pede para comparar dois números, mas o código lê três e os ordena em vez de compará-los conforme solicitado.
+ex039.py - Correto
+ex040.py - Correto
+ex041.py - Correto
+ex042.py - Incorreto: A lógica para classificar o triângulo está falha. Um triângulo equilátero também será classificado como isósceles, pois a verificação de isósceles não exclui a de equilátero. A estrutura deveria ser if/elif/else para garantir uma única classificação.
+ex043.py - Correto
+ex044.py - Correto
+ex045.py - Correto
+ex046.py - Correto
+ex047.py - Correto
+ex048.py - Correto
+ex049.py - Correto
+ex050.py - Correto
+ex051.py - Correto
+ex052.py - Correto
+ex053.py - Correto
+ex054.py - Correto
+ex055.py - Correto: O código generaliza a solução ao perguntar o número de pessoas, enquanto o enunciado fixa em cinco, mas o resultado principal é alcançado.
+ex056.py - Correto
+ex057.py - Correto
+ex058.py - Correto
+ex059.py - Correto
+ex060.py - Correto
+ex061.py - Incorreto: O enunciado pede para mostrar os 10 primeiros termos da PA, mas o código entra em um loop que tenta mostrar 1.000.000 de termos. A condição do 'while' deveria ser 'cont <= 10'.
