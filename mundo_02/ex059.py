@@ -31,13 +31,17 @@ while op != 5:
         print(f'{n1} * {n2} = {n1 * n2}')
     elif op == 3:
         if n1 > n2:
-            print(f'Entre {n1} e {n2}, {n1} é o maior número.')
+            print(f'Entre {n1} e {n2}, o maior é {n1}.')
+        elif n2 > n1:
+            print(f"Entre {n1} e {n2}, o maior é {n2}.")
         else:
-            print(f"Entre {n1} e {n2}, {n2} é o maior número.")
+            print('Os números são iguais.')
     elif op == 4:
         print('Informe os números novamente:')
         n1 = int(input('Insira um valor inteiro: '))
         n2 = int(input('Insira outro valor inteiro: '))
+    elif op == 5:
+        print('Finalizando...')
     else:
         print('Opção inválida. Tente novamente')
     print('=-=' * 15)

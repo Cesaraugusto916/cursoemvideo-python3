@@ -21,6 +21,6 @@ ex055.py - Correto: O código generaliza a solução ao perguntar o número de p
 ex056.py - Correto
 ex057.py - Correto
 ex058.py - Correto
-ex059.py - Incorreto: A opção [3] (maior) não trata o caso de números iguais. Além disso, ao escolher a opção [5] (sair), o programa exibe "Opção inválida" antes de encerrar.
+ex059.py - Correto
 ex060.py - Correto
 ex061.py - Correto
