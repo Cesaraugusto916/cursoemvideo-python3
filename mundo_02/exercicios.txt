@@ -1,13 +1,13 @@
 ex036.py - Correto
 ex037.py - Sem enunciado
-ex038.py - Incorreto: O enunciado pede para comparar dois números, mas o código lê três e os ordena em vez de compará-los conforme solicitado.
+ex038.py - Correto
 ex039.py - Correto
 ex040.py - Correto
 ex041.py - Correto
-ex042.py - Incorreto: A lógica para classificar o triângulo está falha. Um triângulo equilátero também será classificado como isósceles, pois a verificação de isósceles não exclui a de equilátero. A estrutura deveria ser if/elif/else para garantir uma única classificação.
-ex043.py - Correto
-ex044.py - Correto
-ex045.py - Correto
+ex042.py - Correto
+ex043.py - Correto: A lógica está certa, mas a condição `else: print('IMC inválido')` é inalcançável. As condições `elif` poderiam ser simplificadas (ex: `elif imc < 25:`).
+ex044.py - Correto: A lógica principal está certa, mas o código não valida a entrada do método de pagamento e falta formatação de duas casas decimais no pagamento com dinheiro/cheque.
+ex045.py - Correto: Cumpre o requisito, embora a estrutura com múltiplos `if/elif` seja muito repetitiva e possa ser simplificada.
 ex046.py - Correto
 ex047.py - Correto
 ex048.py - Correto
@@ -21,6 +21,6 @@ ex055.py - Correto: O código generaliza a solução ao perguntar o número de p
 ex056.py - Correto
 ex057.py - Correto
 ex058.py - Correto
-ex059.py - Correto
+ex059.py - Incorreto: A opção [3] (maior) não trata o caso de números iguais. Além disso, ao escolher a opção [5] (sair), o programa exibe "Opção inválida" antes de encerrar.
 ex060.py - Correto
-ex061.py - Incorreto: O enunciado pede para mostrar os 10 primeiros termos da PA, mas o código entra em um loop que tenta mostrar 1.000.000 de termos. A condição do 'while' deveria ser 'cont <= 10'.
+ex061.py - Correto
