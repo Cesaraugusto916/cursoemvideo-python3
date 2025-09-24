@@ -1,3 +1,10 @@
+"""
+EXERCÍCIO 067: Tabuada v3.0
+
+Faça um programa que mostre a tabuada de vários números, um de cada vez, para cada valor digitado
+pelo usuário. O programa será interrompido quando o número solicitado for negativo.
+"""
+
 n = 0
 while True:
     n = int(input('Digite um número para ver sua tabuáda ou um número negativo para encerrar: '))
