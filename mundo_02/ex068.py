@@ -1,10 +1,17 @@
-import random
+"""
+EXERCÍCIO 068: Jogo do Par ou Ímpar
+
+Faça um programa que jogue par ou ímpar com o computador. O jogo só será interrompido quando o
+jogador PERDER, mostrando o total de vitórias consecutivas que ele conquistou no final do jogo.
+"""
+
+from random import randint
 import time
 
 r = 0
 user_choice = 0
 user_number = 0
-pc_number = random.randint(0, 10)
+pc_number = randint(0, 10)
 wins = 0
 
 while True:
@@ -20,7 +27,7 @@ while True:
         exit()
 
     time.sleep(1)
-    pc_number = random.randint(0, 10)
+    pc_number = randint(0, 10)
     print('Eu já escolhi meu número...')
     time.sleep(1)
     user_number = int(input("Agora, insira o seu número: "))
