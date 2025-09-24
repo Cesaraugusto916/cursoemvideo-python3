@@ -4,5 +4,5 @@ while True:
     if n < 0:
         break
     for c in range(1, 11):
-        print(f"{c} X {n} = {c*n} ")
+        print(f"{n} X {c} = {c*n} ")
 print('Programa encerrado. Volte sempre!')
